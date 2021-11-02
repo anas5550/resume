@@ -12,7 +12,7 @@ body {
 }
 
 .container-fluid {
-    background-image: url("banner.jpg");
+    background-image: url("dribble.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,6 +51,10 @@ img {
     border-radius: 80%;
 }
 
+.avtaar img {
+    border: 5px solid teal !important;
+}
+
 .content {
     display: flex;
     justify-content: center;
@@ -72,7 +76,7 @@ p #iam {
 
 .main-content {
     font-size: 1.2rem;
-    background: rgba(11, 22, 22, 0.7);
+    background: rgba(11, 22, 22, 0.2);
     padding: 20px;
 }
 
