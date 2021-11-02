@@ -225,7 +225,12 @@ footer {
 
 #my-name {
     /* my name in footer */
-    font-family: 'sacramento';
+    font-family: 'sacramento' !important;
+    color: white;
+}
+
+#topfullname {
+    font-family: 'sacramento', poppins;
     color: white;
 }
 
