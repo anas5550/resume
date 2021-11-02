@@ -239,7 +239,7 @@ footer {
         margin: 100px auto 0 auto;
     }
     .contact {
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-align: justify !important;
     }
     .contact i {
@@ -247,7 +247,7 @@ footer {
         margin: 5px;
     }
     #mytopname {
-        font-size: 15px;
+        font-size: 18px;
         margin-top: 5px;
         margin-bottom: 0;
     }
@@ -256,6 +256,6 @@ footer {
         font-size: 20px;
     }
     footer {
-        font-size: 12px;
+        font-size: 15px;
     }
 }
