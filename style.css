@@ -239,6 +239,19 @@ footer {
 
 #nav-toggle {
     width: 30px;
+    animation: toggle 2s infinite alternate;
+}
+
+@keyframes toggle {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-2px);
+    }
+    100% {
+        transform: translateX(2px);
+    }
 }
 
 .navbar-toggler {
