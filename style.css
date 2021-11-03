@@ -16,7 +16,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 a {
@@ -29,8 +29,7 @@ nav a {
 }
 
 nav a:hover {
-    background: teal !important;
-    color: white !important;
+    color: teal !important;
 }
 
 ul {
@@ -52,7 +51,7 @@ img {
 }
 
 .avtaar img {
-    border: 5px solid teal !important;
+    border: 3px solid teal !important;
 }
 
 .content {
@@ -76,7 +75,7 @@ p #iam {
 
 .main-content {
     font-size: 1.2rem;
-    background: rgba(11, 22, 22, 0.2);
+    /* background: rgba(11, 22, 22, 0.2); */
     padding: 20px;
 }
 
@@ -174,8 +173,8 @@ p #iam {
 }
 
 .handles-body {
-    background: rgb(121, 120, 120);
-    color: white;
+    background: rgb(248, 245, 245);
+    color: black;
     font-family: 'poppins';
 }
 
