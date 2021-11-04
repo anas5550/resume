@@ -182,7 +182,11 @@ p #iam {
 .fa-github,
 .hackerrank,
 .fa-school,
-.fa-graduation-cap {
+.fa-graduation-cap,
+.fa-code,
+.fa-microphone,
+.fa-pen-fancy,
+.fa-headphones {
     font-size: 8rem;
     display: block;
     margin: 0px auto;
@@ -396,5 +400,11 @@ input:checked+.slider:before {
     }
     footer {
         font-size: 15px;
+    }
+    .fa-code,
+    .fa-microphone,
+    .fa-pen-fancy,
+    .fa-headphones {
+        font-size: 3rem !important;
     }
 }
