@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Hello world</h1>
+        <label class="switch">
+        <input type="checkbox" onclick="changeMode() + playSound()">
+        <span class="slider round"></span>
+      </label>
+
+        <button onclick="playSound()">Play</button>
+
+        <script>
+            function changeMode() {
+                var element = document.body;
+                element.classList.toggle('dark-mode');
+            }
+
+            let playSound = () => {
+                new Audio("audio.mp3").play();
+            }
+        </script>
+</body>
+
+</html>
