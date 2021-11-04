@@ -359,6 +359,20 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
+.dark-mode #randologo {
+    position: absolute;
+    background: url('universe.jpg');
+    width: 100vw;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -11;
+}
+
+
+/* media query goes here */
+
 @media only screen and (max-width: 500px) {
     .section {
         margin: 100px auto 0 auto;
