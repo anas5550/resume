@@ -178,6 +178,11 @@ p #iam {
     font-family: 'poppins';
 }
 
+.nightmode {
+    padding: 0;
+    margin: 0;
+}
+
 .fa-linkedin,
 .fa-github,
 .hackerrank,
@@ -205,6 +210,10 @@ p #iam {
 
 .project-li li {
     margin-bottom: 5px;
+}
+
+#intrests .card-body i:hover {
+    color: teal;
 }
 
 .contact {
