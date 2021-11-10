@@ -285,6 +285,10 @@ footer {
     background: black;
 }
 
+#leetcode img {
+    max-height: 140px;
+}
+
 .navbar-toggler {
     border: 2px solid black !important;
 }
