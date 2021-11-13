@@ -7,7 +7,7 @@ body {
 #loading {
     width: 100%;
     height: 100vh;
-    background: white url('spinner.gif') no-repeat center;
+    background: white url('lottie.gif') no-repeat center;
     z-index: 1000;
 }
 
