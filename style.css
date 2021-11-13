@@ -405,6 +405,33 @@ input:checked+.slider:before {
     z-index: -11;
 }
 
+#weather {
+    background-image: url('weather.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#todolist {
+    background-image: url('todo.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#quotes {
+    background-image: url('quotes.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.dark-mode #weather,
+.dark-mode #todolist,
+.dark-mode #quotes {
+    background: none;
+}
+
 
 /* media query goes here */
 
