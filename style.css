@@ -7,21 +7,31 @@ body {
 #loading {
     width: 100%;
     height: 100vh;
-    background: white url('lottie.gif') no-repeat center;
+    background: white url('sg-preloader.gif') no-repeat center;
     z-index: 1000;
 }
 
-.container-fluid {
-    background-image: url("dribble.gif");
+#homepage {
+    background-image: url("loopanumation.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+nav {
+    background-image: url("footer-animation.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark-mode nav {
+    background: none;
 }
 
 nav a {
@@ -51,8 +61,16 @@ img {
 }
 
 .avtaar img {
-    border: 3px solid teal !important;
+    /* border: 3px solid teal !important; */
 }
+
+
+/* .avtaar {
+    background-image: url('loopanumation.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
 
 .content {
     display: flex;
